@@ -1,5 +1,6 @@
 package com.newhomework.homeworktask.database;
 
+import java.util.Locale;
 import java.util.Objects;
 
 public class Employee {
@@ -26,6 +27,7 @@ public class Employee {
     public void setLastName(String lastName) {
         this.lastName = lastName;
     }
+
 
     @Override
     public boolean equals(Object o) {
